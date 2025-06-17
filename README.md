@@ -1,4 +1,4 @@
-# SchrodingerSolver (or QuantumBox_Numerical)
+# Quantum Box Numerical Schrodinger Solver
 
 This repository contains Python code for numerically solving the Time-Independent Schrödinger Equation (TISE) for one-dimensional infinite and finite potential wells (also known as "particle in a box" problems).
 
