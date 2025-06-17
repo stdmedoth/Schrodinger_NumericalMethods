@@ -19,10 +19,11 @@ h_bar = h / (2 * np.pi)  # Reduced Planck's constant in J.s
 main_diag = np.zeros(N)
 sub_diag = -1.0 * np.ones(N - 1)
 
+v0 = 10 # potential energy in eV
 
 for k in range(N):
     x = k * dx
-    vk = 0  # null potential
+    vk = v0  # constant potential energy
     bk = 2 + 2 * m * dx**2 * vk / h_bar**2
 
     main_diag[k] = bk
