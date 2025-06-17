@@ -11,7 +11,7 @@ m = 9.10938356e-31  # electron mass in kg
 L = 1e-10  # 1 angstrom in meters
 
 N = 1000
-dx = L / N  # spatial step
+dx = L / N  # spacial step
 
 h = 6.62607015e-34  # Planck's constant in J.s
 h_bar = h / (2 * np.pi)  # Reduced Planck's constant in J.s
