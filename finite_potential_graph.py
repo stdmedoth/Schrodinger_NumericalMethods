@@ -57,8 +57,6 @@ plt.axvline(l2_pot, color='red', lw=0.5, ls='--')  # horizontal line at y=0
 #plt.plot(x_values, eigh_vectors[:, 1]**2, label='Second ground state', color='green')
 plt.plot(x_values, eigh_vectors[:, 2]**2, label='Third ground state', color='orange')
 
-print(np.max(v))
-
 if np.max(v) > 0:
     # A escala é feita em relação ao valor máximo da primeira função de onda.
     # É mais comum usar o estado fundamental (índice 0) para essa normalização visual.
